@@ -1,4 +1,4 @@
-# CANDY SHOP - Aplicación de Tienda de Golosinas
+# Candy Shop - Aplicación de Tienda de Golosinas
 
 El presente proyecto es una aplicación web diseñada con el fin de aplicar los conocimientos adquiridos durante el seminario. La misma simula una Tienda Online de golosinas, que permite a los usuarios navegar por una variedad de productos, y agregar artículos a su carrito de compras.
 
@@ -32,11 +32,12 @@ La temática del proyecto se centra en el comercio de golosinas extranjeras, per
 - HTML y CSS
 - MockAPI: Para simular una API y gestionar los datos de los productos.
 
-### API = https://669089e2c0a7969efd9c6b91.mockapi.io/api/v1/candies/candies
+#### API = https://669089e2c0a7969efd9c6b91.mockapi.io/api/v1/candies/candies
 
 ---------
 
 ## Enlace a StackBlitz
 
+https://stackblitz.com/~/github.com/EliGramuglia/CandyShop-Angular
 
 
