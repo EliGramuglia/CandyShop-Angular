@@ -1,0 +1,49 @@
+<h1>Nuestros productos</h1>
+
+<div class="container">
+    <div class="row align-items-stretch">
+        @for (candy of candies; track candy.name) { <!--track es un ID, que ayuda a Angular a mejorar la eficiencia cuando renderiza el DOM-->
+            <div class="col-md-4  mb-4" [ngClass]="{'clearance': candy.clearance}">
+                <div class="card rounded shadow h-90" style="max-width: 18rem">
+                    <img [src]="candy.image" class="card-img-top" style="max-height: 320px; object-fit: cover" [alt]="candy.name">
+                    @if (candy.clearance) {
+                        <span class="badge text-bg-clearance">OFERTA DEL DÍA</span>
+                    }
+                    <div class="card-body  d-flex flex-column">
+                        <h5 class="card-title">{{candy.name}}</h5>
+                        <p class="card-text">{{candy.description }}</p>
+                        <p class="card-text">Tipo: {{candy.type}}</p>
+                        <p class="card-text">Precio: {{candy.price | currency}}</p>
+                        @if (candy.stock > 0) {                           
+                            <p>Stock: {{candy.stock}}</p>
+                            <app-input-integer [(quantity)]="candy.quantity" [max]="candy.stock" (maxReached)="maxReached($event)"></app-input-integer>
+                            <button class="btn btn-sm btn-addToCart mt-2" (click)="addCandyToCart(candy)">Comprar</button>                          
+                        } @else {
+                            <span class="badge text-bg-dark">SIN STOCK</span>
+                        }
+                    </div>
+                </div>
+            </div>
+        } @empty {
+           <h1>No hay golosinas para mostrar.</h1>
+        }
+    </div>
+</div>
+
+
+
+
+
+
+
+<!-- Código de los videos:
+<tbody>
+    <tr *ngFor="let candy of candies" [ngClass]="{'clearance': candy.clearance}">
+        <td><img [src]="candy.image" [alt]="candy.name"></td>
+        <td>{{candy.name}}</td>
+        <td>{{candy.type}}</td>
+        <td>{{candy.description}}</td>
+        <td><span *ngIf="candy.price==0">SIN STOCK</span>{{candy.price | currency}}</td>
+    </tr>
+</tbody>-->
+

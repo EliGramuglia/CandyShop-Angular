@@ -1,0 +1,7 @@
+<div class="d-flex  justify-content-center">
+    <button class="btn btn-cart btn-sm me-1" (click)="downCandy()">-</button>
+    <input class="form-control form-control-sm text-center me-1"
+        type="text" [(ngModel)]="quantity" (keyup)="changeQuantity($event)"
+    >
+    <button class="btn btn-cart btn-sm" (click)="upCandy()">+</button>
+</div>

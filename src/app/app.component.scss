@@ -1,0 +1,53 @@
+#searchInput::placeholder, .card-body, .card-header {
+    color: #ff69ac; 
+}
+
+#searchButton {
+    border-color: #ffffff; 
+  }
+  
+  #searchButton:focus,
+  #searchButton:active {
+    background-color: #f5b0cf;
+  }
+
+  footer{
+    font-family:sans-serif;
+  }
+
+  #firstP {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3px;
+    font-size: 22px;
+    color: #6c686a;
+  }
+
+  #firstP, #footerP {
+    font-family: 'Dancing Script', cursive;
+  }
+
+  #footerP {
+    font-size: 32px;
+  }
+
+  .navbar-expand-lg, .container-fluid, .card-footer, #copyright, #searchButton {
+    background-color: #ff69ac;
+    color: white;
+  }
+
+  #copyright {
+    font-size: 15px;
+  }
+
+  .card-body, .card-header {
+    font-weight: bold;
+  }
+
+  a:hover, #searchButton:hover {
+    background-color: #ff85c1; 
+  }
+
+  #navbarSupportedContent {
+    padding-right: 80px;
+  }

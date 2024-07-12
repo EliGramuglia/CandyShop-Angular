@@ -1,0 +1,22 @@
+.card {
+    border: none;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-body {
+    padding: 40px;
+    margin-bottom: 30px;
+  }
+  
+  .display-4 {
+    font-size: 75px;
+  }
+  
+  .btn-primary {
+    background-color: #ff69b4;
+    border-color: #ff69b4;
+  }
+  
+  .btn-primary:hover {
+    background-color: #ff85c1;
+  }

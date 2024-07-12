@@ -1,0 +1,25 @@
+<h1>Carrito de compras</h1>
+
+<div class="container">
+    <ul class="list-group mb-4">
+        @for (candy of cartList$ | async; track candy.name) { 
+            <li class="list-group-item">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img [src]="candy.image" alt="{{ candy.name }}" class="img-fluid" style="max-height: 120px;">
+                    </div>
+                    <div class="col-md-6">
+                        <h5>{{ candy.name }}</h5>
+                    <p>Cantidad: {{candy.quantity}}</p>
+                    <p>Precio unitario: {{candy.price | currency}}</p>
+                </div>
+                <div class="col-md-3 d-flex align-items-center justify-content-end">
+                    <button class="btn btn-dark btn-sm" (click)="removeCandyFromCart(candy)">Eliminar</button>
+                </div>
+            </div>
+        </li>
+    } @empty {
+        <li class="list-group-item text-center">El carrito está vacío</li>
+    }
+    </ul>
+</div>

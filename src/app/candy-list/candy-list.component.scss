@@ -1,0 +1,44 @@
+.clearance {
+  border: 1px solid #1f9ca0
+}
+
+.text-bg-clearance {
+  background-color: #22978c;
+  color: #fff;
+}
+
+p {
+  font-size: 14px;
+}
+
+.card-body p {
+  margin-bottom: 10px;
+}
+
+.btn-addToCart {
+  background-color: #ff69b4;
+  color: white;
+  font-size: 14px;
+  width: 150px;
+  margin: 0 auto;
+}
+
+.btn-addToCart:hover {
+  background-color: #fd1d82;
+  color: white;
+}
+
+.badge {
+  max-width: 200;
+  position: absolute;
+  top: 10px;
+  right: 10px; 
+  z-index: 1;
+  font-size: 15px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
