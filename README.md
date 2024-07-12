@@ -1,27 +1,42 @@
-# TiendaOnline
+# CANDY SHOP - Aplicación de Tienda de Golosinas
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.7.
+El presente proyecto es una aplicación web diseñada con el fin de aplicar los conocimientos adquiridos durante el seminario. La misma simula una Tienda Online de golosinas, que permite a los usuarios navegar por una variedad de productos, y agregar artículos a su carrito de compras.
 
-## Development server
+La aplicación se desarrolla utilizando Angular.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---------
 
-## Code scaffolding
+## Proyecto desarrollado por:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Eliana Gramuglia:
+    DNI: 39741849
+    E-mail: eliana.gramuglia@gmail.com
+    Sede: Tandil
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Sitio wed desarrollado en el marco del seminario "Introducción a Angular", de la Tecnicatura Universitaria en Desarrollo de Aplicaciones Informáticas(TUDAI), UNICEN, Ciudad de Tandil.
 
-## Running unit tests
+---------
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Temática
 
-## Running end-to-end tests
+La temática del proyecto se centra en el comercio de golosinas extranjeras, permitiendo a los usuarios explorar diferentes tipos de dulces y gestionar su compra de manera sencilla e intuitiva.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+---------
 
-## Further help
+## Tecnologías utilizadas:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- Angular: Framework principal para construir la aplicación. (Version 18.0.7.)
+- TypeScript: Lenguaje de programación utilizado para la lógica del proyecto.
+- Bootstrap: Framework para darle estilo a la interfaz gráfica de usuario.
+- HTML y CSS
+- MockAPI: Para simular una API y gestionar los datos de los productos.
+
+### API = https://669089e2c0a7969efd9c6b91.mockapi.io/api/v1/candies/candies
+
+---------
+
+## Enlace a StackBlitz
+
+
+

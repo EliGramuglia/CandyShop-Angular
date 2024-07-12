@@ -11,7 +11,7 @@ import { CandyContactComponent } from './candy-contact/candy-contact.component';
 import { HowToBuyComponent } from './how-to-buy/how-to-buy.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { InputIntegerComponent } from './input-integer/input-integer.component';
-//import { HttpClientModule } from '@angular/common/http'; este deprecado
+//import { HttpClientModule } from '@angular/common/http'; esta deprecado
 import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 
 
