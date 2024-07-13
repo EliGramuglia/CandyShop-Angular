@@ -9,9 +9,9 @@ La aplicación se desarrolla utilizando Angular.
 ## Proyecto desarrollado por:
 
 - Eliana Gramuglia:
-    DNI: 39741849
-    E-mail: eliana.gramuglia@gmail.com
-    Sede: Tandil
+- DNI: 39741849
+- E-mail: eliana.gramuglia@gmail.com
+- Sede: Tandil
 
 
 Sitio wed desarrollado en el marco del seminario "Introducción a Angular", de la Tecnicatura Universitaria en Desarrollo de Aplicaciones Informáticas(TUDAI), UNICEN, Ciudad de Tandil.
